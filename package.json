@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Soulseek NodeJS client",
   "main": "lib/index.js",
+  "types": "lib/types.d.ts",
   "scripts": {
     "pretest": "eslint .",
     "test:unit": "eslint . && nyc mocha",
